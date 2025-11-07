@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events - TechFest 2025</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>TechFest Events</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="events-section">
+    <h2>Event Schedule</h2>
+    
+    <div class="filter-section">
+        <label>Filter by Category:</label>
+        <button onclick="filterEvents('all')">All</button>
+        <button onclick="filterEvents('Programming')">Programming</button>
+        <button onclick="filterEvents('Fest')">Fest</button>
+        <button onclick="filterEvents('Quiz')">Quiz</button>
+    </div>
+
+    <div id="eventList">
+        <p style="text-align: center;">Loading events...</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 TechFest</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

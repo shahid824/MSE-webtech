@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<techfest>
+    <event>
+        <name>Tejas</name>
+        <category>Programming</category>
+        <date>2025-02-20</date>
+        <time>10:00 AM</time>
+        <venue>Lab 305</venue>
+        <description>A competitive programming event to test your coding skills</description>
+    </event>
+
+    <event>
+        <name>Prayogam</name>
+        <category>AI &amp; ML</category>
+        <date>2025-02-21</date>
+        <time>09:00 AM</time>
+        <venue>Innovation Hall</venue>
+        <description>Explore the world of Artificial Intelligence and Machine Learning</description>
+    </event>
+
+    <event>
+        <name>Lakshay</name>
+        <category>Fest</category>
+        <date>2025-03-27</date>
+        <time>05:00 PM</time>
+        <venue>Rugby Ground</venue>
+        <description>An exciting fest event for all participants</description>
+    </event>
+
+    <event>
+        <name>Code Sprint</name>
+        <category>Programming</category>
+        <date>2025-02-22</date>
+        <time>02:00 PM</time>
+        <venue>Lab 401</venue>
+        <description>Fast-paced coding challenges and algorithm competitions</description>
+    </event>
+
+    <event>
+        <name>Tech Quiz</name>
+        <category>Quiz</category>
+        <date>2025-02-23</date>
+        <time>11:00 AM</time>
+        <venue>Auditorium</venue>
+        <description>Test your technical knowledge across various domains</description>
+    </event>
+
+    <event>
+        <name>Web Warriors</name>
+        <category>Web Development</category>
+        <date>2025-02-24</date>
+        <time>01:00 PM</time>
+        <venue>Computer Lab 2</venue>
+        <description>Build innovative websites and web applications</description>
+    </event>
+</techfest>

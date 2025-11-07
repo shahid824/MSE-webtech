@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register - TechFest 2025</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+    <h1>TechFest Registration</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="register-section">
+    <h2>Register for TechFest 2025</h2>
+    <form id="registrationForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="college">College Name:</label>
+        <input type="text" id="college" name="college" required>
+
+        <label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+            <option value="">Choose an event</option>
+            <option value="tejas">Tejas - Programming</option>
+            <option value="prayogam">Prayogam - AI & ML</option>
+            <option value="lakshay">Lakshay - Event</option>
+        </select>
+
+        <button type="submit" id="submitBtn">Register Now</button>
+    </form>
+    <div id="statusMessage" style="display: none; margin-top: 20px; padding: 15px; border-radius: 5px; text-align: center; font-weight: bold;"></div>
+</section>
+
+<footer>
+    <p>&copy; 2025 TechFest</p>
+</footer>
+
+<script src="register.js"></script>
+</body>
+</html>
